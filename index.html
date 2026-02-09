@@ -1,92 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shaikh Afroz | Frontend Developer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaikh Afroz | Portfolio</title>
 
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <nav class="navbar">
-    <h2 class="logo">Afroz<span>.</span></h2>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Afroz<span>.</span></h2>
 
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><button id="themeToggle">🌙</button></li>
-    </ul>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle">🌙</button></li>
+      </ul>
 
-    <div class="menu" onclick="toggleMenu()">☰</div>
-  </nav>
-</header>
+      <div class="menu" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
 
-<section class="hero">
-  <h1>Hi, I'm <span>Shaikh Afroz</span></h1>
-  <h2 class="typing"></h2>
+  <!-- MAIN CONTENT -->
+  <main>
 
-  <div class="hero-buttons">
-    <a href="#projects" class="btn">View Projects</a>
-    <a href="resume.pdf" class="btn outline" download>Download Resume</a>
-  </div>
-</section>
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Hi, I'm <span>Shaikh Afroz</span></h1>
+      <h2 class="typing"></h2>
 
-<section id="about" class="section">
-  <h2>About Me</h2>
-  <p>
-    I am a frontend developer focused on building modern, responsive
-    and user-friendly websites using HTML, CSS and JavaScript.
-  </p>
-</section>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="resume.pdf" class="btn outline" download>Download Resume</a>
+      </div>
+    </section>
 
-<section id="skills" class="section dark">
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>HTML5</span>
-    <span>CSS3</span>
-    <span>JavaScript</span>
-    <span>Responsive Design</span>
-    <span>Git & GitHub</span>
-    <span>UI/UX Basics</span>
-  </div>
-</section>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a frontend developer learning HTML, CSS and JavaScript.
+        I love building clean and responsive websites.
+      </p>
+    </section>
 
-<section id="projects" class="section">
-  <h2>Projects</h2>
+    <!-- SKILLS -->
+    <section id="skills" class="section dark">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>GitHub</span>
+      </div>
+    </section>
 
-  <div class="projects">
-    <a class="card" href="https://afroz-code.github.io/Onrich-mobile/" target="_blank">
-      <h3>Portfolio Website</h3>
-      <p>Modern personal portfolio.</p>
-    </a>
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
 
-    <a class="card" href="#" target="_blank">
-      <h3>Landing Page</h3>
-      <p>Responsive landing page UI.</p>
-    </a>
+      <div class="projects">
+        <a class="card" href="#" target="_blank">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio using HTML & CSS.</p>
+        </a>
 
-    <a class="card" href="#" target="_blank">
-      <h3>Calculator App</h3>
-      <p>JavaScript calculator.</p>
-    </a>
-  </div>
-</section>
+        <a class="card" href="#" target="_blank">
+          <h3>Landing Page</h3>
+          <p>Responsive landing page.</p>
+        </a>
 
-<section id="contact" class="section contact">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:afrozshaikh8169919973@gmail.com">afrozshaikh8169919973@gmail.com</a></p>
-  <p>GitHub: <a href="https://github.com/afroz-code" target="_blank">github.com/afroz-code</a></p>
-</section>
+        <a class="card" href="#" target="_blank">
+          <h3>Calculator App</h3>
+          <p>JavaScript calculator.</p>
+        </a>
+      </div>
+    </section>
 
-<footer>
-  © 2026 Shaikh Afroz
-</footer>
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:afrozshaikh8169919973@gmail.com">afrozshaikh8169919973@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/afroz-code" target="_blank">github.com/afroz-code</a></p>
+    </section>
 
-<script src="script.js"></script>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Shaikh Afroz
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-      </html>
+          </html>
